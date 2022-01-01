@@ -333,7 +333,7 @@ class View {
         //add the line to tell the result
         if (this.game.winner()) {
             if(this.game.winner()==='o'){
-              const test = $("<p></p>").text("Aha, AI just beat your ass!!!").css({
+              const test = $("<p></p>").text("Aha, AI just defeated you!!!").css({
                 "font-size": 40,
                 "text-align": "center",
                 "font-family": "system-ui",
